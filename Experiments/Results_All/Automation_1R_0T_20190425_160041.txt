@@ -1,0 +1,7 @@
+1;20190425_160151;Automation;15T1RW;3;TMPTSP;OPTIMAL;RECTANGULAR;700;7;0;40--40;0;1S;0;0T;1708;517;0;4;3;1;240;93;334;341
+
+Record Count : 1
+Average Time : 341
+Average Travel Distance : 1708
+
+   X
