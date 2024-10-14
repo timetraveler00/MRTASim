@@ -1,0 +1,2 @@
+if LaneCount is high or LaneCount is medium then Selection is Shortest
+if LaneCount is few then Selection is ClosestTP

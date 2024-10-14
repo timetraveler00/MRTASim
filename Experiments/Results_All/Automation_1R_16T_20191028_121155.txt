@@ -1,0 +1,7 @@
+1;20191028_121333;Automation;1Palermo;3;TMPTSP;OPTIMAL;EXTENDEDRECTANGULAR;10;7;0;40--40;0;1S;0;16T;14422;995;0;6;3;1;480;590;951;960
+
+Record Count : 1
+Average Time : 960
+Average Travel Distance : 14422
+
+         X

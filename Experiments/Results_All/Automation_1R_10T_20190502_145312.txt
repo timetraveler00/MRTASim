@@ -1,0 +1,7 @@
+1;20190502_145428;Automation;Ataturk;3;TMPTSP;OPTIMAL;RECTANGULAR;700;7;0;40--40;0;1S;0;10T;19833;1255;0;3;3;1;240;941;1062;1068
+
+Record Count : 1
+Average Time : 1068
+Average Travel Distance : 19833
+
+          X

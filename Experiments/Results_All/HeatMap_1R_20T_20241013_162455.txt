@@ -1,0 +1,7 @@
+1;20241013_162716;HeatMap;Ataturk;3;TMPTSP;OPTIMAL;EXTENDEDRECTANGULAR;10;7;0;40--40;0;1S;9;20T;7445;256;0;34;3;5;360;192;489;526
+
+Record Count : 1
+Average Time : 526
+Average Travel Distance : 7445
+
+     X

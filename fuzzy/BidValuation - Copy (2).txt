@@ -1,0 +1,9 @@
+if TaskCount is few and PriceRating is low then BidValue is medium
+if TaskCount is few and PriceRating is medium then BidValue is accepted
+if TaskCount is few and PriceRating is high then BidValue is accepted
+if TaskCount is medium and PriceRating is low then BidValue is rejected
+if TaskCount is medium and PriceRating is medium then BidValue is medium
+if TaskCount is medium and PriceRating is high then BidValue is accepted
+if TaskCount is high and PriceRating is low then BidValue is rejected
+if TaskCount is high and PriceRating is medium then BidValue is rejected
+if TaskCount is high and PriceRating is high then BidValue is medium
