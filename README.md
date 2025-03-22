@@ -107,22 +107,97 @@ Detailed information about MRTA taxonomy can be found at:
 
 ---
 
-## **Contribution Guide**
+# **Contribution Guide**
 
-We welcome contributions to improve MRTASim. Follow these steps to contribute:
+Thank you for your interest in contributing to **MRTASim**! 
+Your contributions help improve the project and ensure its continued success. 
+Please follow the guidelines below to make the process smooth and efficient.
 
-1. Fork the repository on GitHub.
-2. Create a new branch for your changes.
-3. Follow coding standards:
-   - Use meaningful commit messages.
-   - Adhere to Java best practices.
-   - Write documentation for new features.
-4. Submit a Pull Request (PR):
-   - Clearly describe the purpose of the PR.
-   - Ensure the code is well-tested.
-   - Wait for review and feedback.
+##  How to Contribute
+
+### 1 Fork the Repository
+1. Go to the [MRTASim GitHub repository](https://github.com/timetraveler00/MRTASim).
+2. Click the **Fork** button to create your own copy of the repository.
+3. Clone your forked repository:
+   ```bash
+   git clone https://github.com/your-username/MRTASim.git
+   cd MRTASim
+   ```
+4. Add the original repository as a remote source to stay updated:
+   ```bash
+   git remote add upstream https://github.com/timetraveler00/MRTASim.git
+   ```
+
+### 2 Create a New Branch
+Before making changes, create a new branch:
+```bash
+git checkout -b feature-your-feature-name
+```
+Use a meaningful branch name that reflects your contribution (e.g., `fix-bug-x`, `add-feature-y`).
+
+### 3️ Implement Changes
+- Follow the coding standards (see **Coding Guidelines** below).
+- Ensure that your code does not break existing functionality.
+- Write clear commit messages (see **Commit Guidelines** below).
+
+### 4️ Test Your Changes
+Before submitting your changes, test them thoroughly:
+```bash
+# If tests are available, run them
+mvn test
+```
+
+### 5️ Create a Pull Request (PR)
+1. Push your branch to GitHub:
+   ```bash
+   git push origin feature-your-feature-name
+   ```
+2. Go to the original repository on GitHub.
+3. Click **Compare & pull request**.
+4. Provide a clear title and description for your PR.
+5. Submit the pull request and wait for review.
 
 ---
+
+##  Coding Guidelines
+
+- Recommended coding guideline : [Google Java Coding Guideline](https://google.github.io/styleguide/javaguide.html)
+- Follow Java best practices and clean coding principles. 
+- Maintain consistency in indentation and formatting.
+- Use meaningful variable and function names.
+- Add comments where necessary for better code readability.
+- If modifying existing code, ensure compatibility with previous implementations.
+
+---
+
+##  Commit Guidelines
+
+Follow a structured commit message format:
+```
+[TYPE] Short description (max 50 chars)
+
+Detailed explanation (if needed, max 72 chars per line)
+```
+
+### Common commit types:
+- `feat`: Adding a new feature
+- `fix`: Fixing a bug
+- `docs`: Updating documentation
+- `style`: Code style changes (formatting, whitespace, etc.)
+- `refactor`: Code refactoring without changing functionality
+- `test`: Adding or updating tests
+- `chore`: Miscellaneous maintenance tasks
+
+**Example:**
+```
+feat: Add new task allocation algorithm
+
+Implemented a new bidding mechanism for dynamic task allocation.
+```
+
+---
+
+
 
 ## **License**
 
@@ -138,4 +213,4 @@ If you have any questions, issues, or feedback, feel free to reach out:
 - **GitHub Issues**: [Submit an issue](https://github.com/timetraveler00/MRTASim/issues)
 - **Discussions Forum**: [Start a discussion](https://github.com/timetraveler00/MRTASim/discussions)
 
-
+Thank you for supporting MRTASim. 
